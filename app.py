@@ -11,5 +11,5 @@ def index():
 
 
 if __name__ == '__main__':
-    debug = eval(os.environ.get('DEBUG', 'False'))
+    debug = eval(os.environ.get('DEBUG', 'True'))
     app.run(debug=debug)
